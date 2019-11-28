@@ -1,0 +1,12 @@
+//parametros para o arquivo .env não postado no git por segurança
+module.exports = {
+    authSecret: '',
+     db: {
+        host: '127.0.0.1',
+        port: 5432,
+        database: '',
+        user: '',
+        password: ''
+    },
+    mongo: 'aqui vai o caminho para a conexão com o mongo'
+}
